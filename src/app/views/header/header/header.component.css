@@ -1,0 +1,28 @@
+
+.card{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.botao{
+position: absolute;
+right:    100px;
+bottom:   0;
+}
+
+.selected{
+  font-weight: bold;
+  text-decoration: none;
+
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+button{
+  width: 200px; height: 30px
+}
