@@ -13,10 +13,15 @@
             <input matInput placeholder="Email Alternativo"
                 [(ngModel)]="user.emailAlternative"  #ctrl="ngModel" name="emailAlternative">
         </mat-form-field>
-        <mat-form-field>
-            <input matInput placeholder="Data de Admissão"
-                [(ngModel)]="user.dataAdmission"  #ctrl="ngModel" name="dataAdmission" disable >
-        </mat-form-field>
+        <!-- <mat-form-field>
+             <input matInput placeholder="Data de Admissão"
+                [(ngModel)]="user.dataAdmission"  #ctrl="ngModel"
+                 name="dataAdmission" disable > 
+        
+            </mat-form-field> -->
+            <label>
+                <p>Data de Admissão: {{user.dataAdmission }}</p>
+            </label>
     </form>
         <div class="text-center mt-2">
 
