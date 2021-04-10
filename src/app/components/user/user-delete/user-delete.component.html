@@ -1,10 +1,17 @@
 <mat-card>
     <mat-card-title>Excluir Usuário</mat-card-title>
+
+    <div class="text-center mt-2">
+
+      <img [src]="user.photo" alt="" >
+
+
+    </div>
     <form>
-        <mat-form-field>
+        <!-- <mat-form-field>
             <input matInput placeholder="Foto"
                 [value]="user.photo" name="photo" disabled>
-        </mat-form-field>
+        </mat-form-field> -->
         <mat-form-field>
             <input matInput placeholder="Nome"
                 [value]="user.name" name="name" disabled>
